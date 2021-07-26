@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  background: #000000d0;
+  padding: 2rem;
+  color: white;
+  border-radius: 25px;
+  width: 100%;
+  max-width: 480px;
+  margin: 2rem;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #444;
+  margin: 0;
+  background-image: url("https://source.unsplash.com/1920x1080/?landscape, nature,water,weather");
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+input.search-bar {
+  width: inherit;
+  border-radius: 24px;
+  outline: none;
+  border: none;
+  padding: 0.5em;
+  color: white;
+  background: #7c7c7c2b;
+  font-family: "Montserrat", sans-serif;
+}
+button {
+  outline: none;
+  border: none;
+  margin: 0.8em;
+  border-radius: 50%;
+  height: 38px;
+  width: 38px;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  background: #7c7c7c6b;
+}
+
+h1.temp {
+  margin: 0;
+}
+.description {
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
